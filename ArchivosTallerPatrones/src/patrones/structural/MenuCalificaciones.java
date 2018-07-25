@@ -1,6 +1,6 @@
 package patrones.structural;
 
-import patrones.behavioral.IEscalaExtrajera;
+import patrones.behavioral.*;
 
 /**
  * 
@@ -32,7 +32,17 @@ public class MenuCalificaciones extends MenuDecorator {
      * @return
      */
     public String Convertir(Float calif, String pais) {
-        // TODO implement here
+        
+        String cal = " ";
+        
+        if(pais.equalsIgnoreCase("USA")){
+            EscalaUSA eu = new EscalaUSA();
+            cal = eu.ConvertirCalificacion(calif);
+            } else if(pais.equalsIgnoreCase("Alemania")){
+            EscalaAlemania ea = new EscalaAlemania();
+            cal = ea.ConvertirCalificacion(calif);
+        }
+        
         return "";
     }
 

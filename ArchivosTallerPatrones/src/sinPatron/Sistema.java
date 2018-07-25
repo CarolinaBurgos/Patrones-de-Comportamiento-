@@ -93,7 +93,7 @@ public class Sistema {
                     op = sc.nextInt();
                     opcion = op;
                     if(op <=  instituciones.size()){
-                        accion(instituciones, op);
+                        accion(instituciones, op-1);
                     }
 
                     while(op >  instituciones.size()){
@@ -101,7 +101,7 @@ public class Sistema {
                         op = sc.nextInt();
                         opcion = op;
                         if(op <=  instituciones.size()){
-                            accion(instituciones, op);
+                            accion(instituciones, op-1);
                         }
                     }
             }
