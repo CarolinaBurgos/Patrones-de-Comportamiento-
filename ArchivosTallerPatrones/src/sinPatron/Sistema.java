@@ -16,6 +16,7 @@ import patrones.creational.*;
 public class Sistema {
     
     public static int opcion = 0;
+    public static int elementos = 0;
     public  static Scanner sc = new Scanner(System.in);
     
     /**
@@ -42,6 +43,8 @@ public class Sistema {
             c = c + 1;
         }
         
+        elementos = instituciones.size();
+        
         int op = 0;
         System.out.println("\n\n MENU");
         System.out.print("\nElija el numero de la institucion a mostrar (de 1 a " + instituciones.size() + "): ");
@@ -63,7 +66,7 @@ public class Sistema {
     }
     
     public static void accion(LinkedList<InstitucionEducativa> instituciones, int op) {
-        instituciones.get(op).MostrarOpciones();
+        instituciones.get(op-1).MostrarOpciones();
 
         int cant = 0;
         System.out.print("\nElija la opcion: ");
@@ -72,7 +75,7 @@ public class Sistema {
             accion2(instituciones, op, cant);
         }
 
-        while (cant > instituciones.size()) {
+        while (cant > InstitucionEducativa.cantidad) {
             System.out.print("\nElija la opcion: ");
             cant = sc.nextInt();
             if (cant <= InstitucionEducativa.cantidad) {
@@ -93,7 +96,7 @@ public class Sistema {
                     op = sc.nextInt();
                     opcion = op;
                     if(op <=  instituciones.size()){
-                        accion(instituciones, op-1);
+                        accion(instituciones, op);
                     }
 
                     while(op >  instituciones.size()){
@@ -101,7 +104,7 @@ public class Sistema {
                         op = sc.nextInt();
                         opcion = op;
                         if(op <=  instituciones.size()){
-                            accion(instituciones, op-1);
+                            accion(instituciones, op);
                         }
                     }
             }

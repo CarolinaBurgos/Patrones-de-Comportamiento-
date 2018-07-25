@@ -33,13 +33,19 @@ public class Estudiante {
      */
     private Float promedio;
 
+    public void SetInfo(String nombre, String apellido, String matricula, float promedio) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.matricula = matricula;
+        this.promedio = promedio;
+    }    
 
     /**
      * @return
      */
     public String GetInfo() {
         // TODO implement here
-        return "";
+        return nombre + "\t " + apellido + "\t " + matricula + "\t " + promedio;
     }
 
 }

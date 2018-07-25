@@ -36,11 +36,11 @@ public class MenuCalificaciones extends MenuDecorator {
         String cal = " ";
         
         if(pais.equalsIgnoreCase("USA")){
-            EscalaUSA eu = new EscalaUSA();
-            cal = eu.ConvertirCalificacion(calif);
-            } else if(pais.equalsIgnoreCase("Alemania")){
-            EscalaAlemania ea = new EscalaAlemania();
-            cal = ea.ConvertirCalificacion(calif);
+            escala = new EscalaUSA();
+            cal = escala.ConvertirCalificacion(calif);
+        } else if(pais.equalsIgnoreCase("Alemania")){
+            escala = new EscalaAlemania();
+            cal = escala.ConvertirCalificacion(calif);
         }
         
         return "";
