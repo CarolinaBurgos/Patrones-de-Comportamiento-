@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/ArchivosTallerPatrones/src/patrones/structural/MenuCertificado.java</file>
-            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/ArchivosTallerPatrones/src/sinPatron/Sistema.java</file>
-            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/ArchivosTallerPatrones/src/sinPatron/Menu.java</file>
-            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/ArchivosTallerPatrones/src/sinPatron/InstitucionEducativa.java</file>
+            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/Patrones-de-Comportamiento-/ArchivosTallerPatrones/src/patrones/structural/MenuCalificaciones.java</file>
+            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/Patrones-de-Comportamiento-/ArchivosTallerPatrones/src/sinPatron/Menu.java</file>
+            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/Patrones-de-Comportamiento-/ArchivosTallerPatrones/src/patrones/creational/GenerarCalificaciones.java</file>
+            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/Patrones-de-Comportamiento-/ArchivosTallerPatrones/src/sinPatron/Sistema.java</file>
+            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/Patrones-de-Comportamiento-/ArchivosTallerPatrones/src/patrones/creational/GenerarCertificado.java</file>
+            <file>file:/C:/Users/Carolina/Documents/ESPOL%202018%20-%201S/Diseño%20de%20Software/2do%20parcial/Ejercicio%202/ATP2/Patrones-de-Comportamiento-/ArchivosTallerPatrones/src/patrones/behavioral/EscalaUSA.java</file>
         </group>
     </open-files>
 </project-private>
