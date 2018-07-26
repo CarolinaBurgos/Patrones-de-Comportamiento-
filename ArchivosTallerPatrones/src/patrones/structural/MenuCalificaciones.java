@@ -16,7 +16,7 @@ public class MenuCalificaciones extends MenuDecorator {
     /**
      * 
      */
-    private IEscalaExtrajera escala;
+    private StrategyEscalaExtrajera escala;
 
 
     /**
@@ -36,10 +36,10 @@ public class MenuCalificaciones extends MenuDecorator {
         String cal = " ";
         
         if(pais.equalsIgnoreCase("USA")){
-            escala = new EscalaUSA();
+            escala = new EscalaUSAStrategy();
             cal = escala.ConvertirCalificacion(calif);
         } else if(pais.equalsIgnoreCase("Alemania")){
-            escala = new EscalaAlemania();
+            escala = new EscalaAlemaniaStrategy();
             cal = escala.ConvertirCalificacion(calif);
         }
         

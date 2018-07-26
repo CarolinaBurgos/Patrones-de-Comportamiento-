@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 
  */
-public interface IEscalaExtrajera {
+public interface StrategyEscalaExtrajera {
 
 
     /**

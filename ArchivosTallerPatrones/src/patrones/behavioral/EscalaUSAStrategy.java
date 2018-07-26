@@ -5,12 +5,12 @@ import java.util.*;
 /**
  * 
  */
-public class EscalaUSA implements IEscalaExtrajera {
+public class EscalaUSAStrategy implements StrategyEscalaExtrajera {
 
     /**
      * Default constructor
      */
-    public EscalaUSA() {
+    public EscalaUSAStrategy() {
     }
 
     /**

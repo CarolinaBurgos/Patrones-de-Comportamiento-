@@ -6,12 +6,12 @@ import java.util.*;
  *
  *
  */
-public class EscalaAlemania implements IEscalaExtrajera {
+public class EscalaAlemaniaStrategy implements StrategyEscalaExtrajera {
 
     /**
      * Default constructor
      */
-    public EscalaAlemania() {
+    public EscalaAlemaniaStrategy() {
     }
 
     /**
