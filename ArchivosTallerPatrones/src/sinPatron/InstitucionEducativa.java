@@ -7,8 +7,6 @@ import patrones.structural.MenuOpciones;
  * 
  */
 public class InstitucionEducativa implements MenuOpciones {
-
-    public static int cantidad = 0;
     
     /**
      * Default constructor
@@ -78,21 +76,6 @@ public class InstitucionEducativa implements MenuOpciones {
      */
     public void MostrarOpciones() {
         // TODO implement here
-        
-        if(Sistema.opcion == 1){
-            System.out.println("\n1. Imprimir promedio de calificaciones de estudiante con escala extranjera.");
-            System.out.println("2. Elegir otra institución.");
-            cantidad = 2;
-        } else if(Sistema.opcion == 2){
-            System.out.println("\n1. Imprimir el certificado de estudiante matriculado.");
-            System.out.println("2. Elegir otra institución.");
-            cantidad = 2;
-        } else if(Sistema.opcion == 3){
-            System.out.println("\n1. Imprimir el certificado de estudiante matriculado.");
-            System.out.println("2. Imprimir promedio de calificaciones de estudiante con escala extranjera.");
-            System.out.println("3. Elegir otra institución.");
-            cantidad = 3;
-        }
         
         return ;
     }
